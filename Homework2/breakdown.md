@@ -30,15 +30,15 @@ After reading part 3 of the assignment (before starting to write code), students
 what's important. The sum of the rows is also important.
 
 ##### JAVA:
-```java
-public static final int[] square = {1, 14, 14, 4, 11, 7, 6, 9, 8, 10, 10, 5, 13, 2, 3, 15};
-public static final int sum_of_rows = 33;
-```
+    ```java
+    public static final int[] square = {1, 14, 14, 4, 11, 7, 6, 9, 8, 10, 10, 5, 13, 2, 3, 15};
+    public static final int sum_of_rows = 33;
+    ```
 ##### C:
-```c
-const int square[16] = {1, 14, 14, 4, 11, 7, 6, 9, 8, 10, 10, 5, 13, 2, 3, 15};
-const int sum_of_rows = 33;
-```
+    ```c
+    const int square[16] = {1, 14, 14, 4, 11, 7, 6, 9, 8, 10, 10, 5, 13, 2, 3, 15};
+    const int sum_of_rows = 33;
+    ```
 
 Display all 4 element combinations of the square (array) that add up to the sum (33).
 
