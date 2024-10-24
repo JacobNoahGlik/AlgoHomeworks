@@ -29,12 +29,12 @@ Most students get tripped up by the "square" and try to encapsulate its properti
 After reading part 3 of the assignment (before starting to write code), students **should** see that the square itself is not relevant, but instead, the values are 
 what's important. The sum of the rows is also important.
 
-##### JAVA:
+* ##### JAVA:
     ```java
     public static final int[] square = {1, 14, 14, 4, 11, 7, 6, 9, 8, 10, 10, 5, 13, 2, 3, 15};
     public static final int sum_of_rows = 33;
     ```
-##### C:
+* ##### C:
     ```c
     const int square[16] = {1, 14, 14, 4, 11, 7, 6, 9, 8, 10, 10, 5, 13, 2, 3, 15};
     const int sum_of_rows = 33;
