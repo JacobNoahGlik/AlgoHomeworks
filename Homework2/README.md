@@ -16,7 +16,9 @@ For a more detailed breakdown of the hw, look at [the `breakdown.md` file](break
 <br>
 
 ## Expected Behavior (part 3)
-1. pass
+1. Display all 4 element combinations that add up to `33` and how many combinations were found.
+2. Display all element combinations that add up to `33` and how many combinations were found.
+3. Display all element combinations that add up to `[0, sum(square)]` and how many combinations were found.
 
 <br>
 
