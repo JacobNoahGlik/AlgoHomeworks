@@ -20,6 +20,13 @@ your submission.
 
 Lastly, repeat the process above with a custom sequence of numbers (change the starting values of `number 0` and `number 1`).
 
+#### Sample Output:
+|Index|Lucas Number|Time Taken To Calculate|Lucas Ratio          |Time Ratio|
+|-----|------------|-----------------------|---------------------|----------|
+|`0`  |`Lucas(0)`  |`calc_time(lucas(0))`  |`Lucas(1) / Lucas(0)`|`CT(L(1)) / CT(L(0))`|
+|`1`  |`Lucas(1)`  |`calc_time(lucas(1))`  |`Lucas(2) / Lucas(1)`|`CT(L(2)) / CT(L(1))`|
+|`2`  |`Lucas(2)`  |`calc_time(lucas(2))`  |`Lucas(3) / Lucas(2)`|`CT(L(3)) / CT(L(2))`|
+
 <br>
 
 ## Part 3 (Subirachs Magic Square)
