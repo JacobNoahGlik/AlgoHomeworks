@@ -27,6 +27,14 @@ Lastly, repeat the process above with a custom sequence of numbers (change the s
 |`1`  |`Lucas(1)`  |`calc_time(lucas(1))`  |`Lucas(2) / Lucas(1)`|`CT(L(2)) / CT(L(1))`|
 |`2`  |`Lucas(2)`  |`calc_time(lucas(2))`  |`Lucas(3) / Lucas(2)`|`CT(L(3)) / CT(L(2))`|
 
+#### Can display something like the following in the shell
+```bash
+0. 2   0.7 ms    0.5    1.0
+1. 1   0.7 ms    3.0    2.0
+2. 3   1.4 ms    1.3333 2.1
+```
+
+
 <br>
 
 ## Part 3 (Subirachs Magic Square)
