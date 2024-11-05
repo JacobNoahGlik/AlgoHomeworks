@@ -26,12 +26,16 @@ Lastly, repeat the process above with a custom sequence of numbers (change the s
 |`0`  |`Lucas(0)`  |`calc_time(lucas(0))`  |`Lucas(1) / Lucas(0)`|`CT(L(1)) / CT(L(0))`|
 |`1`  |`Lucas(1)`  |`calc_time(lucas(1))`  |`Lucas(2) / Lucas(1)`|`CT(L(2)) / CT(L(1))`|
 |`2`  |`Lucas(2)`  |`calc_time(lucas(2))`  |`Lucas(3) / Lucas(2)`|`CT(L(3)) / CT(L(2))`|
+|`3`  |`Lucas(3)`  |`calc_time(lucas(3))`  |`Lucas(4) / Lucas(3)`|`CT(L(4)) / CT(L(3))`|
+|`4`  |`Lucas(4)`  |`calc_time(lucas(4))`  |`Lucas(5) / Lucas(4)`|`CT(L(5)) / CT(L(4))`|
 
 #### Can display something like the following in the shell
 ```bash
-0. 2   0.7 ms    0.5    1.0
-1. 1   0.7 ms    3.0    2.0
-2. 3   1.4 ms    1.3333 2.1
+0.  2  0.7 microseconds  0.5     1.0
+1.  1  0.7 microseconds  3.0     2.0
+2.  3  1.4 microseconds  1.3333  2.0714
+3.  4  2.9 microseconds  1.75    1.6207
+4.  7  4.7 microseconds  1.5714  1.9095
 ```
 
 
@@ -41,8 +45,8 @@ Lastly, repeat the process above with a custom sequence of numbers (change the s
 
 Most students get tripped up by the "square" and try to encapsulate its properties in their code. **Don't do that**.
 
-After reading part 3 of the assignment (before starting to write code), students **should** see that the square itself is not relevant, but instead, the values are 
-what's important. The sum of the rows is also important.
+After reading part 3 of the assignment (before starting to write code), students **should** see that the square itself is not relevant, but instead, the values themselves are 
+what's important. The sum of the rows (`33`) is also important.
 
 * ##### JAVA:
     ```java
