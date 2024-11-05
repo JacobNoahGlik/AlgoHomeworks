@@ -31,11 +31,11 @@ Lastly, repeat the process above with a custom sequence of numbers (change the s
 
 #### Can display something like the following in the shell
 ```bash
-0.  2  0.7 microseconds  0.5     1.0
-1.  1  0.7 microseconds  3.0     2.0
-2.  3  1.4 microseconds  1.3333  2.0714
-3.  4  2.9 microseconds  1.75    1.6207
-4.  7  4.7 microseconds  1.5714  1.9095
+0.  2   0.7 microseconds   0.5      1.0
+1.  1   0.7 microseconds   3.0      2.0
+2.  3   1.4 microseconds   1.3333   2.0714
+3.  4   2.9 microseconds   1.75     1.6207
+4.  7   4.7 microseconds   1.5714   1.9095
 ```
 
 
